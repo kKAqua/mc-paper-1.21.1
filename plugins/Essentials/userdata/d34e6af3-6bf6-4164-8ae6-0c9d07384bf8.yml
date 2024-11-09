@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731109724426
+  login: 1731084365448
+money: '0'
+last-account-name: KKorpse_1
+logoutlocation:
+  world: 1da0d9a5-9e3d-4bd9-af0f-b25fdcaab81f
+  world-name: world
+  x: 3456.300000011921
+  y: 208.0
+  z: -6950.300000011921
+  yaw: -74.9554443359375
+  pitch: 35.54986572265625

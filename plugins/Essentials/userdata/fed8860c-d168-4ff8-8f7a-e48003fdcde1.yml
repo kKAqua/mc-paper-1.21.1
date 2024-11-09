@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.122
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1731074566098
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731143282721
+  login: 1731143137412
+money: '0'
+last-account-name: FpsLuPing
+logoutlocation:
+  world: 1da0d9a5-9e3d-4bd9-af0f-b25fdcaab81f
+  world-name: world
+  x: -1432.3364795780567
+  y: 64.0
+  z: -3326.534200843097
+  yaw: 10.579621315002441
+  pitch: 20.399993896484375
+lastlocation:
+  world: e1c3395c-98db-4908-9f9b-daecf5b2c1f2
+  world-name: world_nether
+  x: 243.9547597812825
+  y: 146.0
+  z: -477.8506202419648
+  yaw: 162.0441436767578
+  pitch: -11.550019264221191

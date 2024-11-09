@@ -1,0 +1,514 @@
+[09:34:29] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.4+8-LTS-274; Oracle Corporation null) on Mac OS X 13.4 (aarch64)
+[09:34:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
+[09:34:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:34:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[09:34:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - CMILib (1.5.2.2), CommandAPI (9.6.0), Essentials (2.20.1), LuckPerms (5.4.131), ProtocolLib (5.3.0), QuickShop-Hikari (6.2.0.7), Residence (5.1.6.3), Vault (1.7.3-b131), WorldEdit (7.3.8+6939-7d32b45), fakeplayer (0.3.12)
+[09:34:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:34:32] [ServerMain/INFO]: Loaded 1290 recipes
+[09:34:32] [ServerMain/INFO]: Loaded 1399 advancements
+[09:34:33] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[09:34:33] [Server thread/INFO]: Loading properties
+[09:34:33] [Server thread/INFO]: This server is running Paper version 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[09:34:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:34:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:34:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:34:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
+[09:34:34] [Server thread/INFO]: Default game type: SURVIVAL
+[09:34:34] [Server thread/INFO]: Generating keypair
+[09:34:34] [Server thread/INFO]: Starting Minecraft server on *:14264
+[09:34:34] [Server thread/INFO]: Using default channel type
+[09:34:35] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[09:34:35] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[09:34:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[09:34:35] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:34:35] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v9.6.0
+[09:34:35] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
+[09:34:35] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[09:34:35] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[09:34:35] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[09:34:35] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[09:34:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[09:34:35] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.2.2
+[09:34:35] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.8+6939-7d32b45
+[09:34:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3015683]
+[09:34:36] [Server thread/INFO]: [fakeplayer] Loading server plugin fakeplayer v0.3.12
+[09:34:36] [Server thread/INFO]: [QuickShop-Hikari] Loading server plugin QuickShop-Hikari v6.2.0.7
+[09:34:36] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the initialization sequence
+[09:34:36] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Bootloader preparing for startup, please wait...
+[09:34:36] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing libraries...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Maven repository mirror test result:
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] [US] APACHE: 135ms
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] [CN] HUAWEI: 269ms
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] [CN] TENCENT: 522ms
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] [US] CENTRAL: 850ms
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] [CN] ALIYUN: 1037ms
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading 12 libraries (0 skipped libraries)...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-lang3:3.14.0 [1/12]
+[09:34:37] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[09:34:37] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: Defaulting to no-operation (NOP) logger implementation
+[09:34:37] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-compress:1.25.0 [2/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.code.gson:gson:2.10.1 [3/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.guava:guava:33.1.0-jre [4/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.rollbar:rollbar-java:1.9.0 [5/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library cc.carm.lib:easysql-hikaricp:0.4.7 [6/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.h2database:h2:2.1.214 [7/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.konghq:unirest-java:3.14.5 [8/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library net.sourceforge.csvjdbc:csvjdbc:1.0.42 [9/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.dom4j:dom4j:2.1.4 [10/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.vdurmont:semver4j:3.1.0 [11/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.ghostchu.crowdin:crowdinota:1.0.3 [12/12]
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initialing Unirest...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing platform...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform detected: Paper
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Slf4jLogger initialized
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform initialized: com.ghostchu.quickshop.platform.paper.PaperPlatform
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Boot QuickShop instance...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Creating QuickShop instance...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Booting up
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Self testing...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] [ConfigUpdater] Saving configuration changes...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Setting up privacy controller...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Setting up QuickShop registry....
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Setting up metrics manager...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Loading player name and unique id mapping...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Loading translations (This may take a while)...
+[09:34:37] [Server thread/INFO]: [QuickShop-Hikari] Please wait us fetch the translation updates from Crowdin OTA service...
+[09:34:37] [Server thread/INFO]: [CrowdinOTA] Downloading Crowdin distribution manifest from remote server...
+[09:34:38] [Server thread/INFO]: [OTAFileInstance-0] Downloading translations for 0 locales...
+[09:34:38] [Server thread/INFO]: [OTAFileInstance-1] Downloading translations for 0 locales...
+[09:34:38] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
+[09:34:38] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
+[09:34:39] [Server thread/INFO]: [QuickShop-Hikari] Register InventoryWrapper...
+[09:34:39] [Server thread/INFO]: [QuickShop-Hikari] Initializing NexusManager...
+[09:34:39] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Complete
+[09:34:39] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Complete (2704ms). Waiting for enable...
+[09:34:39] [Server thread/INFO]: [Residence] Loading server plugin Residence v5.1.6.3
+[09:34:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:34:39] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[09:34:39] [Server thread/INFO]:         __    
+[09:34:39] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[09:34:39] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:34:39] [Server thread/INFO]: 
+[09:34:39] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:34:39] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:34:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:34:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:34:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 609ms)
+[09:34:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:34:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:34:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:34:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:34:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[09:34:39] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[09:34:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.8+6939-7d32b45
+[09:34:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:34:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[09:34:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[09:34:40] [Server thread/INFO]: Preparing level "world"
+[09:34:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:34:41] [Server thread/INFO]: Time elapsed: 566 ms
+[09:34:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:34:41] [Server thread/INFO]: Time elapsed: 124 ms
+[09:34:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:34:41] [Server thread/INFO]: Time elapsed: 33 ms
+[09:34:41] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v9.6.0
+[09:34:41] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[09:34:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[09:34:42] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[09:34:42] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:34:42] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:34:42] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[09:34:42] [Server thread/INFO]: [Essentials] Using locale zh_JP_#Hans
+[09:34:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:34:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:34:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:34:42] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[09:34:42] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.2.2
+[09:34:43] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.1 - paper  1.21.1-128-d348cb8 (MC: 1.21.1)
+[09:34:43] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:34:43] [Server thread/INFO]: Updated (EN) language file. Took 20ms
+[09:34:43] [Server thread/INFO]: [fakeplayer] Enabling fakeplayer v0.3.12
+[09:34:43] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] fakeplayer-datasource - Starting...
+[09:34:44] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] fakeplayer-datasource - Added connection org.sqlite.jdbc4.JDBC4Connection@33baa799
+[09:34:44] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] fakeplayer-datasource - Start completed.
+[09:34:44] [Server thread/INFO]: [fakeplayer] Using simple invsee implement
+[09:34:44] [Server thread/INFO]: [fakeplayer] Enabled in 8063 ms
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Enabling QuickShop-Hikari v6.2.0.7
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the enable sequence
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Starting plugin self-test, please wait...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] Spigot Based Server Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] Old QuickShop Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Based Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Database Driver Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] CoreSupport Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] ProtocolLib Incorrect Locate Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] GameVersion supporting Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] PacketListenerAPI Conflict Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] Permission Manager Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] Reremake Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] EcoEnchants V11 Check
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] End of life Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [ConfigUpdater] Saving configuration changes...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Contributors: Ghost_chu, PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood (KaiKikuchi), sandtechnology, jho5245, cakoyo, Andre601, Ectabro, Chris6ix, portlek, log4b0at, deadman96385, tiararinne, DoctaEnkoda, CarmJos, YuanYuanOwO, Mgazul, mart-r, Tim269, raphtaliapt, creatorfromhell, LoneDev6, Steven-OS, confuxeon, ibmibmibm, judgetread, mfnalex, Warriorrrr, PyvesB, yannicklamprecht, ORelio, RMSCA, Starmism, yiwenwang2090, PaulBGD, Nlkomaru, harry0198, Draesia, Localized community members on Crowdin
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Original author: Netherfoam, Timtower, KaiNoMood, sandtechnology
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Let's start loading the plugin
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Setting up ItemExpressionRegistry...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Using Virtual Item display, loading ProtocolLib support...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Successfully loaded ProtocolLib support!
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Setting up database...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Create database backup...
+[09:34:44] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Starting...
+[09:34:44] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Checking and updating database columns, it may take a while...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Finished!
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Selected permission provider: Bukkit
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Registering commands...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Loaded 1 rules for listener blacklist.
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] EventManager selected: QSEventManager
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Loading shops from database...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Used 6ms to fetch 11 shops from database.
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Loading shops into memory...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Used 17ms to load 0 shops into memory (11 shops will be loaded after chunks/world loaded).
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Registering listeners...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Cleaning MsgUtils...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Cleaning purchase messages from the database that are over a week old...
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] Log actions is enabled. Actions will be logged in the qs.log file!
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [Shop Purger] Purge not enabled!
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
+[09:34:44] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete. (374ms)
+[09:34:44] [Server thread/INFO]: [Residence] Enabling Residence v5.1.6.3
+[09:34:44] [Server thread/INFO]: [Residence] Loaded (1) groups
+[09:34:44] [Server thread/INFO]: [Residence] Found LuckPerms5 Plugin!
+[09:34:44] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[09:34:44] [Server thread/INFO]: [Residence] Found Vault using economy: EssentialsX Economy
+[09:34:45] [Server thread/INFO]: [Residence] Loaded world data into memory. (17 ms) -> 3 residences
+[09:34:45] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms) -> 0 residences
+[09:34:45] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms) -> 0 residences
+[09:34:45] [Server thread/INFO]: [Residence] Found WorldEdit 7.3.8+6939-7d32b45
+[09:34:45] [Server thread/INFO]: [Residence] Enabled! Version 5.1.6.3 by Zrips
+[09:34:45] [Server thread/INFO]: [spark] Starting background profiler...
+[09:34:46] [Server thread/INFO]: Done preparing level "world" (5.417s)
+[09:34:46] [Server thread/INFO]: Running delayed init tasks
+[09:34:46] [Craft Scheduler Thread - 1 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] Start to caching usernames (async)...
+[09:34:46] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] 正在获取版本信息...
+[09:34:46] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
+[09:34:46] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:34:46] [Server thread/INFO]: Loaded 1290 recipes
+[09:34:46] [Server thread/INFO]: Loaded 1399 advancements
+[09:34:46] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[09:34:46] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
+[09:34:46] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:34:46] [Server thread/INFO]: [QuickShop-Hikari] Using economy system: EssentialsX Economy
+[09:34:46] [Server thread/WARN]: [QuickShop-Hikari] QuickShop detected that no tax account exists and will try to create one. If you see any errors, please change the tax-account name in the config.yml to that of the Server owner.
+[09:34:46] [Server thread/INFO]: [Essentials] Created a User for Tax (2c5f00ba-902c-411b-b9b9-9261cf43aee1) for non Bukkit type: com.earth2me.essentials.OfflinePlayerStub
+[09:34:46] [Server thread/INFO]: [QuickShop-Hikari] Tax account created.
+[09:34:46] [Server thread/INFO]: [QuickShop-Hikari] Selected economy bridge: BuiltIn-Vault
+[09:34:46] [Server thread/INFO]: Done (17.834s)! For help, type "help"
+[09:34:46] [Server thread/INFO]: Timings Reset
+[09:34:46] [Server thread/INFO]: kK_Aqua (/192.168.0.122:52855) lost connection: Disconnected
+[09:46:10] [User Authenticator #0/INFO]: UUID of player kK_Aqua is 5b5f390e-8232-4b1c-8719-2b55095ebddd
+[09:46:11] [Server thread/INFO]: kK_Aqua joined the game
+[09:46:11] [Server thread/INFO]: kK_Aqua[/192.168.0.122:52879] logged in with entity id 28 at ([world]43.90366819750737, 108.0, 33.47790396449694)
+[09:46:32] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[09:48:07] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[09:48:24] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[09:51:26] [Server thread/INFO]: kK_Aqua issued server command: /time set 1
+[10:05:48] [Server thread/INFO]: kK_Aqua issued server command: /fp spawn
+[10:05:48] [Server thread/INFO]: [fakeplayer] UUID of fake player kK_Aqua_1 is 4c35d61c-a490-4b3c-987e-38def2fa1709
+[10:05:48] [Server thread/INFO]: kK_Aqua_1 joined the game
+[10:05:48] [Server thread/INFO]: kK_Aqua_1[/127.0.0.1:25565] logged in with entity id 3783 at ([world]1183.3357924193217, 67.0, 1343.401527643474)
+[10:08:33] [Server thread/INFO]: kK_Aqua lost connection: Disconnected
+[10:08:33] [Server thread/INFO]: kK_Aqua left the game
+[10:08:43] [User Authenticator #1/INFO]: UUID of player kK_Aqua is 5b5f390e-8232-4b1c-8719-2b55095ebddd
+[10:08:43] [Server thread/INFO]: kK_Aqua joined the game
+[10:08:43] [Server thread/INFO]: kK_Aqua[/192.168.0.122:52918] logged in with entity id 4116 at ([world]1165.5453222214012, 69.74938414969789, 1349.1918514595116)
+[10:10:09] [User Authenticator #2/INFO]: UUID of player nemorix is 8fc8b198-e781-4cc3-8f73-be869eb71c30
+[10:10:11] [Server thread/INFO]: nemorix joined the game
+[10:10:11] [Server thread/INFO]: nemorix[/192.168.0.122:52925] logged in with entity id 4263 at ([world]1155.8198656622174, 91.0, 881.5517204622541)
+[10:10:22] [Server thread/INFO]: kK_Aqua issued server command: /tpa nemorix
+[10:10:31] [Server thread/INFO]: nemorix issued server command: /tpa
+[10:10:37] [Server thread/INFO]: nemorix issued server command: /tpaccept
+[10:10:41] [Async Chat Thread - #3/INFO]: <nemorix> 6
+[10:10:52] [Async Chat Thread - #3/INFO]: <kK_Aqua> ?
+[10:10:57] [Async Chat Thread - #3/INFO]: <kK_Aqua> zhe sha
+[10:11:08] [Async Chat Thread - #3/INFO]: <nemorix> 古迹废墟
+[10:11:12] [Server thread/INFO]: kK_Aqua issued server command: /gamemode spectator
+[10:12:09] [Server thread/INFO]: kK_Aqua issued server command: /gamemode creative
+[10:12:36] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[10:13:30] [Server thread/INFO]: kK_Aqua issued server command: /resadmin message Sakura_Isle enter Welcome %player to %residence
+[10:14:10] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[10:14:29] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[10:14:41] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[10:25:05] [Server thread/INFO]: kK_Aqua issued server command: /qs create 10000
+[10:26:43] [Server thread/INFO]: kK_Aqua issued server command: /qs create 10000
+[10:27:34] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 200000
+[10:27:44] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 200000
+[10:30:34] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 9000
+[10:31:10] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentremove 5e89d407-87fa-4ab8-98b1-023eee15bf43
+[10:31:23] [Server thread/INFO]: kK_Aqua issued server command: /qs remove
+[10:31:40] [Server thread/INFO]: kK_Aqua issued server command: /qs remove
+[10:39:02] [Server thread/INFO]: kK_Aqua lost connection: Disconnected
+[10:39:02] [Server thread/INFO]: kK_Aqua left the game
+[10:44:46] [Server thread/INFO]: kK_Aqua_1 lost connection: [fakeplayer] Creator offline
+[10:44:46] [Server thread/INFO]: kK_Aqua_1 left the game
+[10:44:46] [Server thread/INFO]: [fakeplayer] kK_Aqua is offline more than 12000 ticks, removing 1 fake players
+[10:52:13] [User Authenticator #3/INFO]: UUID of player kK_Aqua is 5b5f390e-8232-4b1c-8719-2b55095ebddd
+[10:52:13] [Server thread/INFO]: kK_Aqua joined the game
+[10:52:13] [Server thread/INFO]: kK_Aqua[/192.168.0.122:53019] logged in with entity id 15728 at ([world]1225.8069405491235, 82.86464855704592, 1318.8034571698342)
+[10:52:37] [Server thread/INFO]: kK_Aqua issued server command: /fp spawn
+[10:52:37] [Server thread/INFO]: [fakeplayer] UUID of fake player kK_Aqua_1 is 4c35d61c-a490-4b3c-987e-38def2fa1709
+[10:52:37] [Server thread/INFO]: kK_Aqua_1 joined the game
+[10:52:37] [Server thread/INFO]: kK_Aqua_1[/127.0.0.2:25565] logged in with entity id 16177 at ([world]1184.9326913094635, 67.0, 1343.2212050709843)
+[10:56:35] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited a0e8a4f0-f2e4-45cd-b352-eeaeb4509d7c
+[10:56:41] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited bf15dc2a-8b66-4daf-a231-81752a3d1375
+[10:59:18] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[10:59:55] [Server thread/INFO]: [@: Teleported kK_Aqua to -1428.500000, 62.500000, -3436.500000]
+[11:00:15] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[11:00:23] [Server thread/INFO]: [@: Teleported kK_Aqua to -1428.500000, 62.500000, -3436.500000]
+[11:00:26] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[11:00:37] [Server thread/INFO]: kK_Aqua issued server command: /tpa nemorix
+[11:00:43] [Server thread/INFO]: nemorix issued server command: /tpaccept
+[11:02:01] [Async Chat Thread - #5/INFO]: <kK_Aqua> 离我家近
+[11:02:13] [Async Chat Thread - #5/INFO]: <nemorix> 还是有点远
+[11:02:15] [Async Chat Thread - #5/INFO]: <kK_Aqua> 1300 1200
+[11:02:32] [Async Chat Thread - #5/INFO]: <kK_Aqua> 1300 1300
+[11:02:52] [Server thread/INFO]: kK_Aqua issued server command: /tpa nemorix
+[11:02:57] [Server thread/INFO]: nemorix issued server command: /tpaccept
+[11:04:05] [Async Chat Thread - #7/INFO]: <nemorix> 怎么一只鸡没有
+[11:08:06] [Async Chat Thread - #9/INFO]: <kK_Aqua> ?
+[11:08:09] [Async Chat Thread - #9/INFO]: <kK_Aqua> 逆天
+[11:08:09] [Async Chat Thread - #9/INFO]: <nemorix> 我操
+[11:08:32] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[11:08:40] [Server thread/INFO]: kK_Aqua lost connection: Disconnected
+[11:08:40] [Server thread/INFO]: kK_Aqua left the game
+[11:12:39] [User Authenticator #4/INFO]: UUID of player kK_Aqua is 5b5f390e-8232-4b1c-8719-2b55095ebddd
+[11:12:40] [Server thread/INFO]: kK_Aqua joined the game
+[11:12:40] [Server thread/INFO]: kK_Aqua[/192.168.0.122:53036] logged in with entity id 22823 at ([world]36.13307481062873, 110.23832794145686, 10.354566881981222)
+[11:12:49] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[11:13:39] [Server thread/INFO]: kK_Aqua issued server command: /eco take nemorix 10000
+[11:14:04] [Async Chat Thread - #12/INFO]: <kK_Aqua> 你咋钱还变多了
+[11:14:11] [Server thread/INFO]: nemorix issued server command: /balance
+[11:14:15] [Async Chat Thread - #12/INFO]: <nemorix> 母鸡
+[11:17:16] [Server thread/INFO]: kK_Aqua issued server command: /eco take KKorpse 10000
+[11:17:32] [Server thread/INFO]: kK_Aqua issued server command: /give KKorpse 1000
+[11:17:44] [Server thread/INFO]: kK_Aqua issued server command: /eco give KKorpse 1000
+[11:18:03] [Server thread/INFO]: kK_Aqua issued server command: /eco take lilialex 9000
+[11:18:28] [Server thread/INFO]: kK_Aqua issued server command: /eco take IlIlAlex 9000
+[11:22:09] [Server thread/INFO]: kK_Aqua issued server command: /fp spawn
+[11:22:09] [Server thread/INFO]: [fakeplayer] UUID of fake player kK_Aqua_2 is dcaa2187-b976-4309-859f-7df955319d58
+[11:22:09] [Server thread/INFO]: kK_Aqua_2 joined the game
+[11:22:09] [Server thread/INFO]: kK_Aqua_2[/127.0.0.3:25565] logged in with entity id 25729 at ([world]-92.5, 117.0, -50.5)
+[11:27:00] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[11:27:24] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[11:27:34] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[11:28:23] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[11:37:44] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[11:38:10] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[11:49:29] [Server thread/INFO]: nemorix issued server command: /bal
+[11:50:38] [Server thread/INFO]: Named entity Dolphin['dolphy'/16298, uuid='97c8a175-bd73-424d-b8ff-c76a3d6dd110', l='ServerLevel[world]', x=1268.07, y=61.04, z=1315.50, cpos=[79, 82], tl=68966, v=true] died: dolphy drowned
+[11:54:19] [Server thread/INFO]: nemorix has made the advancement [Smells Interesting]
+[11:55:15] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[11:55:39] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[11:58:04] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[11:59:57] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[12:04:02] [Server thread/INFO]: nemorix was shot by Skeleton
+[12:04:47] [Server thread/INFO]: nemorix was slain by Zombie
+[12:17:33] [Server thread/INFO]: kK_Aqua issued server command: /resadmin setowner AquaHome kK_Aqua
+[12:19:44] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[12:20:14] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[12:20:17] [Server thread/INFO]: kK_Aqua issued server command: /res subzone AquaHome test1
+[12:22:26] [Server thread/INFO]: kK_Aqua issued server command: /res market rentable AquaHome.test1 1000 1
+[12:22:53] [Server thread/INFO]: kK_Aqua issued server command: /res market list
+[12:23:12] [Server thread/INFO]: kK_Aqua issued server command: /res market list rent
+[12:23:18] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[12:23:41] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[12:31:20] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited bf15dc2a-8b66-4daf-a231-81752a3d1375
+[12:31:25] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited bf15dc2a-8b66-4daf-a231-81752a3d1375
+[12:31:26] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited bf15dc2a-8b66-4daf-a231-81752a3d1375
+[12:31:42] [Server thread/INFO]: kK_Aqua issued server command: /quickshop refill 122
+[12:32:13] [Server thread/INFO]: kK_Aqua issued server command: /quickshop refill 1300
+[12:32:25] [Server thread/INFO]: kK_Aqua issued server command: /quickshop refill 170
+[12:32:51] [Server thread/INFO]: kK_Aqua issued server command: /quickshop transferownership accept
+[12:33:00] [Server thread/INFO]: kK_Aqua issued server command: /quickshop transferownership kK_Aqua_1
+[12:33:32] [Server thread/INFO]: kK_Aqua issued server command: /fp kill kK_Aqua_2
+[12:33:32] [Server thread/INFO]: kK_Aqua_2 lost connection: [fakeplayer] command kill
+[12:33:32] [Server thread/INFO]: kK_Aqua_2 left the game
+[12:33:53] [Server thread/INFO]: kK_Aqua issued server command: /fp spawn npc1
+[12:33:53] [Server thread/INFO]: [fakeplayer] UUID of fake player npc1 is f05680da-912e-4154-b56c-eda05e56203c
+[12:33:53] [Server thread/INFO]: npc1 joined the game
+[12:33:54] [Server thread/INFO]: npc1[/127.0.0.4:25565] logged in with entity id 49259 at ([world]-98.5, 122.0, -47.5)
+[12:34:04] [Server thread/INFO]: kK_Aqua issued server command: /quickshop transferownership npc1
+[12:34:34] [Server thread/INFO]: kK_Aqua issued server command: /qs transferownership npc1 accept
+[12:35:06] [Server thread/INFO]: kK_Aqua issued server command: /qs transferownership kK_Aqua npc1
+[12:35:10] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[12:35:30] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited bf15dc2a-8b66-4daf-a231-81752a3d1375
+[12:37:10] [Server thread/INFO]: kK_Aqua issued server command: /quickshop transferownership kK_Aqua
+[12:37:14] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited bf15dc2a-8b66-4daf-a231-81752a3d1375
+[12:37:50] [Server thread/INFO]: kK_Aqua issued server command: /qs transferownership npc1
+[12:38:06] [Server thread/INFO]: kK_Aqua issued server command: /qs transferownership accept npc1
+[12:38:33] [Server thread/INFO]: kK_Aqua issued server command: /qs transferownership npc1 accept
+[12:39:30] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[12:40:10] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[12:44:05] [Server thread/INFO]: kK_Aqua issued server command: /quickshop transferownership tax
+[12:51:22] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[12:51:33] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[12:51:45] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentunlimited 95b712a9-f4ac-4aaa-a299-51c8cb9f1695
+[12:51:55] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentbuy 95b712a9-f4ac-4aaa-a299-51c8cb9f1695
+[12:52:54] [Server thread/INFO]: kK_Aqua issued server command: /mail
+[12:53:08] [Server thread/INFO]: kK_Aqua issued server command: /mail
+[12:54:05] [Server thread/INFO]: nemorix has completed the challenge [Great View From Up Here]
+[12:54:18] [Server thread/INFO]: kK_Aqua issued server command: /quickshop silentsell 95b712a9-f4ac-4aaa-a299-51c8cb9f1695
+[12:54:24] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 1
+[12:54:31] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 5
+[12:54:39] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 3.5
+[12:55:08] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[12:55:15] [Server thread/INFO]: kK_Aqua issued server command: /quickshop price 1
+[12:55:27] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[12:55:29] [Server thread/INFO]: [@: Teleported kK_Aqua to -1340.500000, 79.000000, -3688.500000]
+[12:55:53] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[12:56:21] [Server thread/INFO]: kK_Aqua issued server command: /gamemode survival
+[12:58:09] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[12:59:07] [Server thread/INFO]: kK_Aqua issued server command: /gamemode creative
+[12:59:35] [Server thread/INFO]: kK_Aqua issued server command: //set 8
+[12:59:50] [Server thread/INFO]: kK_Aqua issued server command: //set 8
+[12:59:51] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[12:59:55] [Server thread/INFO]: kK_Aqua issued server command: //undo
+[13:00:00] [Server thread/INFO]: kK_Aqua issued server command: //set 8
+[13:00:30] [Server thread/INFO]: kK_Aqua issued server command: //set 8
+[13:06:22] [Server thread/INFO]: kK_Aqua lost connection: Disconnected
+[13:06:22] [Server thread/INFO]: kK_Aqua left the game
+[13:12:31] [User Authenticator #5/INFO]: UUID of player FpsLuPing is fed8860c-d168-4ff8-8f7a-e48003fdcde1
+[13:12:32] [Server thread/INFO]: FpsLuPing joined the game
+[13:12:32] [Server thread/INFO]: FpsLuPing[/192.168.0.122:53138] logged in with entity id 67474 at ([world]-1428.5, 62.5, -3436.5)
+[13:13:02] [Server thread/INFO]: [FpsLuPing: Teleported FpsLuPing to -13.500000, 93.000000, 14.500000]
+[13:13:26] [Server thread/INFO]: [@: Teleported FpsLuPing to -1428.500000, 62.500000, -3436.500000]
+[13:14:46] [Server thread/INFO]: npc1 lost connection: [fakeplayer] Creator offline
+[13:14:46] [Server thread/INFO]: npc1 left the game
+[13:14:46] [Server thread/INFO]: kK_Aqua_1 lost connection: [fakeplayer] Creator offline
+[13:14:46] [Server thread/INFO]: kK_Aqua_1 left the game
+[13:14:46] [Server thread/INFO]: [fakeplayer] kK_Aqua is offline more than 12000 ticks, removing 2 fake players
+[13:16:51] [Server thread/INFO]: nemorix was slain by Piglin
+[13:17:19] [Async Chat Thread - #21/INFO]: <nemorix> 给个op，跑尸
+[13:20:34] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[13:20:52] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[13:22:27] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[13:23:12] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[13:23:32] [Server thread/INFO]: [@: Teleported nemorix to 144.500000, 64.000000, 147.500000]
+[13:42:36] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[13:42:39] [Server thread/INFO]: nemorix lost connection: Disconnected
+[13:42:39] [Server thread/INFO]: nemorix left the game
+[13:45:36] [Server thread/INFO]: [FpsLuPing: Teleported FpsLuPing to -13.500000, 93.000000, 14.500000]
+[13:49:02] [Server thread/INFO]: kK_Aqua (/192.168.0.122:53268) lost connection: Disconnected
+[13:49:53] [User Authenticator #6/INFO]: UUID of player kK_Aqua is 5b5f390e-8232-4b1c-8719-2b55095ebddd
+[13:49:54] [Server thread/INFO]: kK_Aqua joined the game
+[13:49:54] [Server thread/INFO]: kK_Aqua[/192.168.0.122:53274] logged in with entity id 83709 at ([world]-38.69187286785881, 98.04031937898246, 24.878785374680096)
+[13:50:03] [Async Chat Thread - #24/INFO]: <kK_Aqua> 真退游了？
+[13:50:08] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[13:50:19] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[13:50:30] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[13:50:36] [Server thread/INFO]: kK_Aqua issued server command: /tpa FpsLuPing
+[13:50:41] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[13:50:42] [Server thread/INFO]: FpsLuPing issued server command: /tpaccept
+[13:51:41] [Async Chat Thread - #25/INFO]: <FpsLuPing> sb
+[13:52:12] [Server thread/INFO]: [kK_Aqua: Teleported kK_Aqua to -13.500000, 93.000000, 14.500000]
+[13:52:39] [Server thread/INFO]: [@: Teleported kK_Aqua to 1246.500000, 65.000000, 1314.500000]
+[13:54:50] [Server thread/INFO]: [FpsLuPing: Teleported FpsLuPing to -13.500000, 93.000000, 14.500000]
+[13:55:36] [Server thread/INFO]: [@: Teleported FpsLuPing to -1428.500000, 62.500000, -3436.500000]
+[13:57:35] [Server thread/INFO]: kK_Aqua issued server command: /fp spawn
+[13:57:35] [Server thread/INFO]: [fakeplayer] UUID of fake player kK_Aqua_1 is 4c35d61c-a490-4b3c-987e-38def2fa1709
+[13:57:35] [Server thread/INFO]: kK_Aqua_1 joined the game
+[13:57:35] [Server thread/INFO]: kK_Aqua_1[/127.0.0.5:25565] logged in with entity id 86547 at ([world]1185.699999988079, 67.0, 1344.074999988079)
+[13:59:02] [Server thread/INFO]: kK_Aqua issued server command: /bal FpsLuPing
+[13:59:15] [Server thread/INFO]: kK_Aqua issued server command: /eco take FpsLuPing 10000
+[13:59:22] [Async Chat Thread - #27/INFO]: <FpsLuPing> ?
+[14:00:17] [Async Chat Thread - #27/INFO]: <kK_Aqua> 哎
+[14:00:56] [Async Chat Thread - #27/INFO]: <kK_Aqua> 巍子
+[14:01:17] [Async Chat Thread - #27/INFO]: <kK_Aqua> 花钱买点装备就行了吧
+[14:01:54] [Async Chat Thread - #27/INFO]: <kK_Aqua> 不然经济系统意义何在，不就是有勒种个情况
+[14:02:08] [Async Chat Thread - #28/INFO]: <FpsLuPing> 你去群里给他说
+[14:02:45] [Async Chat Thread - #27/INFO]: <kK_Aqua> 比如钻石这种硬通货，我就出售，他的启动资金可以拿来做装备啊
+[14:02:55] [Async Chat Thread - #27/INFO]: <kK_Aqua> 附魔书也可以找你买
+[14:03:10] [Async Chat Thread - #27/INFO]: <kK_Aqua> 而且他有有很多稀有的
+[14:03:21] [Async Chat Thread - #27/INFO]: <kK_Aqua> 它也可以卖，之前让他挂单他没挂好像
+[14:05:06] [Server thread/INFO]: kK_Aqua lost connection: Disconnected
+[14:05:06] [Server thread/INFO]: kK_Aqua left the game
+[14:14:46] [Server thread/INFO]: kK_Aqua_1 lost connection: [fakeplayer] Creator offline
+[14:14:46] [Server thread/INFO]: kK_Aqua_1 left the game
+[14:14:46] [Server thread/INFO]: [fakeplayer] kK_Aqua is offline more than 12000 ticks, removing 1 fake players
+[14:38:32] [Server thread/INFO]: [FpsLuPing: Teleported FpsLuPing to -13.500000, 93.000000, 14.500000]
+[14:38:53] [Server thread/INFO]: [@: Teleported FpsLuPing to -1428.500000, 62.500000, -3436.500000]
+[15:05:09] [User Authenticator #7/INFO]: UUID of player kK_Aqua is 5b5f390e-8232-4b1c-8719-2b55095ebddd
+[15:05:09] [Server thread/INFO]: kK_Aqua joined the game
+[15:05:09] [Server thread/INFO]: kK_Aqua[/192.168.0.122:53551] logged in with entity id 100593 at ([world]1196.4129634816845, 83.0, 1330.7447480695466)
+[15:05:37] [Server thread/INFO]: kK_Aqua issued server command: /lp creategroup
+[15:07:30] [Async Chat Thread - #30/INFO]: <FpsLuPing> 1
+[15:08:40] [Server thread/INFO]: [FpsLuPing: Teleported FpsLuPing to -13.500000, 93.000000, 14.500000]
+[15:09:05] [Server thread/INFO]: [@: Teleported FpsLuPing to -1428.500000, 62.500000, -3436.500000]
+[15:10:46] [Server thread/INFO]: FpsLuPing fell from a high place
+[15:17:11] [Server thread/INFO]: kK_Aqua issued server command: /qs amount 1
+[15:17:21] [Server thread/INFO]: kK_Aqua issued server command: /qs amount 1
+[15:17:29] [Server thread/INFO]: kK_Aqua issued server command: /qs about 1
+[15:17:45] [Server thread/INFO]: kK_Aqua issued server command: /qs
+[15:18:09] [Server thread/INFO]: kK_Aqua issued server command: /qs buy
+[15:28:03] [Server thread/INFO]: kK_Aqua issued server command: /qs sell
+[15:34:46] [Craft Scheduler Thread - 1433 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:34:46] [Craft Scheduler Thread - 1433 - Vault/INFO]: [Vault] No new version available
+[15:52:00] [Server thread/INFO]: Named entity Dolphin['doll'/100682, uuid='b1600f3a-f77c-46e7-ad9d-df896dca9856', l='ServerLevel[world]', x=1265.82, y=65.14, z=1312.58, cpos=[79, 82], tl=252860, v=true] died: doll died from dehydration
+[16:20:00] [Server thread/INFO]: Villager Villager['Villager'/117720, uuid='8215597e-d51f-4e28-aed2-1d72c3f78045', l='ServerLevel[world]', x=-1485.81, y=52.54, z=-3459.71, cpos=[-93, -217], tl=16766, v=true] died, message: 'Villager was slain by FpsLuPing'
+[16:29:52] [User Authenticator #8/INFO]: UUID of player nemorix is 8fc8b198-e781-4cc3-8f73-be869eb71c30
+[16:29:53] [Server thread/INFO]: nemorix joined the game
+[16:29:53] [Server thread/INFO]: nemorix[/192.168.0.122:54530] logged in with entity id 123516 at ([world]-13.5, 93.0, 14.5)
+[16:29:58] [Async Chat Thread - #33/INFO]: <FpsLuPing> woc
+[16:30:00] [Async Chat Thread - #33/INFO]: <FpsLuPing> nb
+[16:30:01] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[16:30:13] [Async Chat Thread - #33/INFO]: <nemorix> 来个op
+[16:30:23] [Async Chat Thread - #33/INFO]: <FpsLuPing> 恭迎岛主
+[16:30:31] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[16:31:20] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[16:32:06] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[16:32:29] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[16:37:02] [Async Chat Thread - #34/INFO]: <FpsLuPing> sleep
+[16:37:16] [Async Chat Thread - #34/INFO]: <FpsLuPing> 111
+[16:40:34] [Server thread/INFO]: [nemorix: Teleported nemorix to -13.500000, 93.000000, 14.500000]
+[16:40:57] [Server thread/INFO]: [@: Teleported nemorix to -1340.500000, 79.000000, -3688.500000]
+[16:45:03] [Server thread/WARN]: Oak Boat (vehicle of FpsLuPing) moved wrongly! 0.5680131321159934
+[16:45:03] [Server thread/WARN]: Oak Boat (vehicle of FpsLuPing) moved wrongly! 0.30987076515566514
+[16:45:03] [Server thread/WARN]: Oak Boat (vehicle of FpsLuPing) moved wrongly! 0.32136027292744984
+[16:45:04] [Server thread/WARN]: Oak Boat (vehicle of FpsLuPing) moved wrongly! 0.35640605828666594
+[16:45:18] [Server thread/WARN]: Oak Boat (vehicle of FpsLuPing) moved wrongly! 0.4845184056621292
+[16:49:19] [Server thread/INFO]: Villager Villager['Mason'/102217, uuid='3ae8100b-e5a2-40ad-9698-2d8896036388', l='ServerLevel[world]', x=-1427.81, y=62.19, z=-3320.75, cpos=[-90, -208], tl=3026999, v=true] died, message: 'Mason suffocated in a wall'
+[16:49:28] [Server thread/INFO]: Villager Villager['Farmer'/102224, uuid='b7691b28-c406-44d6-bb79-ae628f5a15b9', l='ServerLevel[world]', x=-1427.31, y=62.75, z=-3321.74, cpos=[-90, -208], tl=2930466, v=true] died, message: 'Farmer was slain by FpsLuPing'
+[16:49:30] [Server thread/INFO]: Villager Villager['Cleric'/102218, uuid='5b90bc4b-b48b-4f1a-a5c9-f7b67e02a2e7', l='ServerLevel[world]', x=-1427.21, y=62.19, z=-3320.69, cpos=[-90, -208], tl=3895032, v=true] died, message: 'Cleric was slain by FpsLuPing'
+[16:50:45] [Server thread/INFO]: FpsLuPing was blown up by Creeper
+[16:51:38] [Server thread/INFO]: FpsLuPing was shot by Skeleton
+[16:53:43] [Server thread/INFO]: FpsLuPing was blown up by Creeper
+[16:59:31] [Server thread/INFO]: FpsLuPing was slain by Iron Golem
+[17:05:28] [Async Chat Thread - #36/INFO]: <FpsLuPing> 苦力怕真的是最恶心的生物
+[17:05:33] [Server thread/INFO]: FpsLuPing lost connection: Disconnected
+[17:05:33] [Server thread/INFO]: FpsLuPing left the game
+[17:05:36] [User Authenticator #9/INFO]: UUID of player FpsLuPing is fed8860c-d168-4ff8-8f7a-e48003fdcde1
+[17:05:37] [Server thread/INFO]: FpsLuPing joined the game
+[17:05:37] [Server thread/INFO]: FpsLuPing[/192.168.0.122:54692] logged in with entity id 141351 at ([world]-1440.5352538604632, 63.0, -3332.313387336038)
+[17:07:27] [Server thread/INFO]: nemorix has made the advancement [Planting the Past]
+[17:08:02] [Server thread/INFO]: FpsLuPing lost connection: Disconnected
+[17:08:02] [Server thread/INFO]: FpsLuPing left the game
+[18:29:30] [Server thread/INFO]: nemorix has made the advancement [Little Sniffs]
+[21:12:54] [User Authenticator #10/INFO]: UUID of player KKorpse is 87e1d174-a624-46c3-940c-cc8b0f76075d
+[21:12:58] [Server thread/INFO]: KKorpse joined the game
+[21:12:58] [Server thread/INFO]: KKorpse[/192.168.0.122:55991] logged in with entity id 187596 at ([world_nether]433.7045714354592, 199.0, -871.5906064932361)
+[21:13:29] [Server thread/INFO]: KKorpse lost connection: Timed out
+[21:13:29] [Server thread/INFO]: KKorpse left the game
+[21:19:56] [User Authenticator #11/INFO]: UUID of player KKorpse is 87e1d174-a624-46c3-940c-cc8b0f76075d
+[21:19:57] [Server thread/INFO]: KKorpse joined the game
+[21:19:57] [Server thread/INFO]: KKorpse[/192.168.0.122:56106] logged in with entity id 189278 at ([world_nether]433.7045714354592, 199.0, -871.5906064932361)
+[21:21:22] [Server thread/INFO]: [KKorpse: Teleported KKorpse to -13.500000, 93.000000, 14.500000]
+[21:22:53] [Server thread/INFO]: [KKorpse: Teleported KKorpse to -13.500000, 93.000000, 14.500000]
+[21:23:22] [Server thread/INFO]: [@: Teleported KKorpse to 1246.500000, 65.000000, 1314.500000]

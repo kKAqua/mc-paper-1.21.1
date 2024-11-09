@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.5
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731132886059
+  login: 1731131855440
+money: '1000'
+last-account-name: kK_Aqua_1
+logoutlocation:
+  world: 1da0d9a5-9e3d-4bd9-af0f-b25fdcaab81f
+  world-name: world
+  x: 1185.699999988079
+  y: 67.0
+  z: 1344.074999988079
+  yaw: -7.00665283203125
+  pitch: 29.3162899017334

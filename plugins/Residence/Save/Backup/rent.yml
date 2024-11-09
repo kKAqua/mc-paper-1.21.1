@@ -1,0 +1,9 @@
+RentSystem:
+  Rentables:
+    AquaHome.test1:
+      Repeatable: true
+      StayInMarket: true
+      Days: 1
+      AllowAutoPay: true
+      Cost: 1000
+  Rented: {}

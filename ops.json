@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "85d75289-1f4f-3acf-9701-10cfcc67d238",
+    "name": "FpsLuPing",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "54af6f6c-6978-3867-b6cc-9fd64c21b60d",
+    "name": "kK_Aqua",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5b5f390e-8232-4b1c-8719-2b55095ebddd",
+    "name": "kK_Aqua",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

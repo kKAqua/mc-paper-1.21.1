@@ -1,0 +1,137 @@
+Messages:
+  1:
+    LeaveMessage: Now leaving %residence.
+    EnterMessage: Welcome %player to %residence, owned by %owner.
+  2:
+    LeaveMessage: Now leaving %residence.
+    EnterMessage: Welcome %player to %residence
+Flags:
+  1:
+    container: true
+    ignite: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+  2:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    creeper: false
+  3:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    button: true
+    healing: true
+    feed: true
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    glow: true
+    creeper: false
+  4:
+    container: false
+    bed: true
+    ignite: false
+    door: false
+    harvest: false
+    commandblock: true
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    command: true
+    hook: false
+    trade: true
+    build: false
+    elytra: true
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    creeper: false
+Residences:
+  AquaHome:
+    Messages: 1
+    Subzones:
+      test1:
+        Messages: 1
+        Permissions:
+          PlayerFlags:
+            5b5f390e-8232-4b1c-8719-2b55095ebddd: 1
+          AreaFlags: 2
+          OwnerUUID: 5b5f390e-8232-4b1c-8719-2b55095ebddd
+          OwnerLastKnownName: kK_Aqua
+        CreatedOn: 1731126017241
+        Areas:
+          test1: 1198:-64:1295:1200:319:1297
+    Permissions:
+      PlayerFlags:
+        5b5f390e-8232-4b1c-8719-2b55095ebddd: 1
+      AreaFlags: 2
+      OwnerUUID: 5b5f390e-8232-4b1c-8719-2b55095ebddd
+      OwnerLastKnownName: kK_Aqua
+    CreatedOn: 1731083099732
+    Areas:
+      main: 1145:-64:1272:1287:319:1358
+  Sakura_Isle:
+    TPLoc: 32.3:104.0:17.3:-0.53:-88.08
+    Messages: 2
+    Permissions:
+      PlayerFlags:
+        d34e6af3-6bf6-4164-8ae6-0c9d07384bf8: 1
+      AreaFlags: 3
+      OwnerUUID: d34e6af3-6bf6-4164-8ae6-0c9d07384bf8
+      OwnerLastKnownName: KKorpse_1
+    CreatedOn: 1731105058894
+    Areas:
+      main: -69:-64:-83:130:319:116
+  SeaHeart:
+    TPLoc: -1487.94:64.78:-3456.93:21.15:-22.09
+    Messages: 1
+    Permissions:
+      PlayerFlags:
+        fed8860c-d168-4ff8-8f7a-e48003fdcde1: 1
+      AreaFlags: 4
+      OwnerUUID: fed8860c-d168-4ff8-8f7a-e48003fdcde1
+      OwnerLastKnownName: FpsLuPing
+    CreatedOn: 1731084186729
+    Areas:
+      main: -1514:-64:-3484:-1448:319:-3426
