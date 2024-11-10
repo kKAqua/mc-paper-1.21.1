@@ -91,6 +91,9 @@
 - **查看余额**：
   ```plaintext
   /balance
+- **查看经济排行榜**：
+  ```plaintext
+  /baltop
 - **设置家**：
   ```plaintext
   /sethome
