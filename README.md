@@ -104,19 +104,34 @@
 - **禁用/启用飞行**：
   ```plaintext
   /fly
+  
 ## 假人操作指令
+
 ### 基本功能
+
 - **在玩家所在位置召唤一个假人**：
+
 ```plaintext
-  /fp spawn
+/fp spawn
+```
+
 - **删除假人**：
+
 ```plaintext
-  /fp kill
+/fp kill
+```
+
 - **选中准心指向假人**：
+
 ```plaintext
-  /fp select
+/fp select
+```
+
 - **查看假人配置**：
+
 ```plaintext
-  /fp config
-按T打开聊天面板可用鼠标进行点击配置
+/fp config
+```
+
+随后按T打开聊天面板可用鼠标进行点击配置
 
